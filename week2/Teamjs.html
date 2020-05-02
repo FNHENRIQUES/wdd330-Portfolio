@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>Team Assignment 1</title>
+	<link rel='stylesheet' href='styles.css'>
+    </head>
+<script>
+        function display() {
+            const number = document.getElementById("text1").value;
+            const display = document.getElementById("div1");
+​
+            const inputNumber = parseInt(number);
+            if (inputNumber !== NaN) {
+                display.innerHTML = addNumbers(inputNumber);
+            }
+            function addNumbers(number) {
+                let total = 0;
+                for (let i = 1; i <= number; i++) {
+                    total += i;
+                }
+​
+                return total;
+		}
+
+        };
+
+
+	</script>
+  
+    <body>
+	<h1>Team Assignment.</h1>
+<!-- Requirement 1 -->
+	<input id="text1" type="text" placeholder="Enter your first number..."/></p>
+	<input id="text2" type="text" placeholder="Enter your second number..."/></p>
+	<button id="bot1" onclick="display()">Sum the ancients to actual.</button><br>
+	<div id="div1"></div><br>
+	<button id="bot2">Sum the first to second.</button><br>
+	<div id="div2"></div><br>
+	<button id="bot3">Subtract the first to second.</button><br>
+	<div id="div3"></div><br>
+	<button id="bot4">Multiply the first to second.</button><br>
+	<div id="div4"></div><br>
+	<script>
+	   document.getElementById("bot1").addEventListener("click", function() {
+            const number1 = document.getElementById("text1").value;
+            const numberInt1 = parseInt(number1);
+            if (numberInt1 !== NaN) {
+                let sum1 = 0
+		for (let i = 1; i <= numberInt1; i++) {
+         	 sum1 += i;
+        	}
+        	return sum1;
+	const total = sum1 + numberInt1;	
+                document.getElementById("div1").innerHTML = total;
+		
+  		} 
+	});</script>
+
+	<script>
+           document.getElementById("bot2").addEventListener("click", function() {
+            const number1 = document.getElementById("text1").value;
+            const number2 = document.getElementById("text2").value;
+            const numberInt1 = parseInt(number1);
+            const numberInt2 = parseInt(number2);
+            if (numberInt1 !== NaN && numberInt2 !== NaN) {
+                let sum = numberInt1 + numberInt2;
+                document.getElementById("div2").innerHTML = sum;
+		
+            } 
+});
+       </script>
+
+		
+	 <script>
+           document.getElementById("bot3").addEventListener("click", function() {
+            const number1 = document.getElementById("text1").value;
+            const number2 = document.getElementById("text2").value;
+            const numberInt1 = parseInt(number1);
+            const numberInt2 = parseInt(number2);
+            if (numberInt1 !== NaN && numberInt2 !== NaN) {
+                let difference = numberInt1 - numberInt2;
+                document.getElementById("div3").innerHTML = difference;
+		
+            } 
+});
+       </script>
+
+<script>
+           document.getElementById("bot4").addEventListener("click", function() {
+            const number1 = document.getElementById("text1").value;
+            const number2 = document.getElementById("text2").value;
+            const numberInt1 = parseInt(number1);
+            const numberInt2 = parseInt(number2);
+            if (numberInt1 !== NaN && numberInt2 !== NaN) {
+                const mult2 = numberInt1 * numberInt2;
+                document.getElementById("div4").innerHTML = mult2;
+		
+            } 
+});
+       </script>
+
+
+
+	<button id='button'>change background</button>
+    	<script src='main.js'></script>
+    </body>
+</html>
