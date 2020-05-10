@@ -21,10 +21,9 @@ h1{
 }
 p{
 	color: navy;
-	font-family: 'Baloo Da',cursive;
-	font-size: 80px;
+	font-family: 'Baloo Da', cursive
+	
 }
-
 button {
     color: #ffffff;
     background-color: #611BBD;
