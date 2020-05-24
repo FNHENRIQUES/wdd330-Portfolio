@@ -15,7 +15,7 @@ const hikeList = [
     },
     {
       name: 'Teton Canyon',
-      imgSrc: 'falls.jpg',
+      imgSrc: 'teton.jpg',
       imgAlt: 'Image of Bechler Falls',
       distance: '3 miles',
       difficulty: 'Easy',
@@ -24,8 +24,8 @@ const hikeList = [
         'Take Highway 33 East to Driggs. Turn left onto Teton Canyon Road. Follow that road for a few miles then turn right onto Staline Raod for a short distance, then left onto Alta Road. Veer right after Alta back onto Teton Canyon Road. There is a parking area at the trailhead.'
     },
     {
-      name: 'Denanda Falls',
-      imgSrc: 'falls.jpg',
+      name: 'Dunanda Falls',
+      imgSrc: 'dunanda.jpg',
       imgAlt: 'Image of Bechler Falls',
       distance: '7 miles',
       difficulty: 'Moderate',
