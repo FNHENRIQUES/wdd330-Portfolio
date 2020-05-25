@@ -12,7 +12,7 @@ body{
 }
 
 h1{
-    color: #611BBD;
+    color: yellow;
     font-family: 'Baloo Da', cursive;
     font-weight: 900;
     text-align: center;
@@ -34,23 +34,34 @@ pre{
 	font-family: 'Baloo Da', cursive
 	
 }
+<style>
+	#nas{
+		background-color: #ccffcc;
+		
+	}
+    #heav{
+        background-color: lightgreen;
+		width: auto;
+        padding: 10px 2%;
+        text-align: center;
+    }
+    #bod{
+        background-color: #ffe6b3;
+        width: auto;
+        padding: 10px 2%;
+    }
+    #foot{
+        width: auto;
+        padding: 10px 2%;
+        background-color: #993300;
+        color: white;
+        text-align: center;
+    }
+ 
+    .content{
+        text-align: center;
+        width: 100%;
+        background-color: #ccffff;
+    }
+</style>
 
-
-button {
-    color: #ffffff;
-    background-color: #611BBD;
-    border-color: #130269;
-    border-radius: 4px;
-
-    display: block;
-
-    font-size: 24px;
-}
-.button:hover {background-color: light blue}
-
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-
-}
