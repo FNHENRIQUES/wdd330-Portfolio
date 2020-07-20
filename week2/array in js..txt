@@ -1,3 +1,0 @@
-const avengers = ['Captain America', 'Iron Man', 'Thor', 'Hulk'];
-for(let i=0, max=avengers.length; i < max; i++){
-console.log(avengers[i]);
